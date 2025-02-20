@@ -7,16 +7,20 @@ environment:
   sdk: ^3.5.4
 
 dependencies:
+  args: ^2.6.0
+  cli_util: ^0.4.2
   flex_color_scheme: ^8.0.2
   flutter:
     sdk: flutter
   flutter_gen: ^5.9.0
   font_awesome_flutter: ^10.8.0
   iconsax: ^0.0.8
+  path: ^1.9.0
   screenshot: ^3.0.0
   url_launcher: ^6.3.1
 
 dev_dependencies:
+  analyzer: ^6.7.0
   build_runner: ^2.4.13
   flutter_gen_runner: ^5.9.0
   flutter_lints: ^4.0.0

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'theme_switcher_scaffold.dart';
 
 class TelegramThemeSwitcherPage extends StatelessWidget {
-  static const String routeName = '/telegram-theme-switcher';
+  static const routeName = '/telegram-theme-switcher';
   const TelegramThemeSwitcherPage({super.key});
 
   @override

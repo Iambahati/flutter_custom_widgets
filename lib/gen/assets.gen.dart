@@ -15,6 +15,46 @@ class $AssetsImagesGen {
   /// File path: assets/images/banana.png
   AssetGenImage get banana => const AssetGenImage('assets/images/banana.png');
 
+  /// File path: assets/images/bedroom1.jpg
+  AssetGenImage get bedroom1 =>
+      const AssetGenImage('assets/images/bedroom1.jpg');
+
+  /// File path: assets/images/bedroom10.jpg
+  AssetGenImage get bedroom10 =>
+      const AssetGenImage('assets/images/bedroom10.jpg');
+
+  /// File path: assets/images/bedroom2.jpg
+  AssetGenImage get bedroom2 =>
+      const AssetGenImage('assets/images/bedroom2.jpg');
+
+  /// File path: assets/images/bedroom3.jpg
+  AssetGenImage get bedroom3 =>
+      const AssetGenImage('assets/images/bedroom3.jpg');
+
+  /// File path: assets/images/bedroom4.jpg
+  AssetGenImage get bedroom4 =>
+      const AssetGenImage('assets/images/bedroom4.jpg');
+
+  /// File path: assets/images/bedroom5.jpg
+  AssetGenImage get bedroom5 =>
+      const AssetGenImage('assets/images/bedroom5.jpg');
+
+  /// File path: assets/images/bedroom6.jpg
+  AssetGenImage get bedroom6 =>
+      const AssetGenImage('assets/images/bedroom6.jpg');
+
+  /// File path: assets/images/bedroom7.jpg
+  AssetGenImage get bedroom7 =>
+      const AssetGenImage('assets/images/bedroom7.jpg');
+
+  /// File path: assets/images/bedroom8.jpg
+  AssetGenImage get bedroom8 =>
+      const AssetGenImage('assets/images/bedroom8.jpg');
+
+  /// File path: assets/images/bedroom9.jpg
+  AssetGenImage get bedroom9 =>
+      const AssetGenImage('assets/images/bedroom9.jpg');
+
   /// File path: assets/images/img2.jpg
   AssetGenImage get img2 => const AssetGenImage('assets/images/img2.jpg');
 
@@ -22,7 +62,21 @@ class $AssetsImagesGen {
   AssetGenImage get img3 => const AssetGenImage('assets/images/img3.jpg');
 
   /// List of all assets
-  List<AssetGenImage> get values => [banana, img2, img3];
+  List<AssetGenImage> get values => [
+        banana,
+        bedroom1,
+        bedroom10,
+        bedroom2,
+        bedroom3,
+        bedroom4,
+        bedroom5,
+        bedroom6,
+        bedroom7,
+        bedroom8,
+        bedroom9,
+        img2,
+        img3
+      ];
 }
 
 class Assets {

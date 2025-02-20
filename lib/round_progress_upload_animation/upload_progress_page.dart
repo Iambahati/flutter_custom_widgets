@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
+
 import 'round_progress_upload_widget.dart';
 
 class UploadProgressPage extends StatefulWidget {
-  static const String routeName = '/round-progress-upload-animation';
+  static const routeName = '/round-progress-upload-animation';
   const UploadProgressPage({super.key});
 
   @override

@@ -1,31 +1,33 @@
+// GENERATED FILE - DO NOT EDIT MANUALLY
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_widgets/meal_card/meal_card.dart';
-import 'package:flutter_custom_widgets/round_progress_upload_animation/upload_progress_page.dart';
-import 'package:flutter_custom_widgets/telegram_theme_switcher_animation/tg_theme_switcher_page.dart';
-
+import '../coverflow_carousel/coverflow_carousel_page.dart';
+import '../round_progress_upload_animation/upload_progress_page.dart';
+import '../telegram_theme_switcher_animation/tg_theme_switcher_page.dart';
 final routes = <PageRoute>[
-  PageRoute(
-    routeName: MealCardPage.routeName,
-    title: 'Meal Card',
-    widget: const MealCardPage(),
+  const PageRoute(
+    routeName: CoverFlowCarouselPage.routeName,
+    title: 'Coverflow Carousel',
+    widget: CoverFlowCarouselPage(),
   ),
-  PageRoute(
-      routeName: TelegramThemeSwitcherPage.routeName,
-      title: 'Telegram Theme Switcher Animation',
-      widget: const TelegramThemeSwitcherPage()),
-  PageRoute(
-      routeName: UploadProgressPage.routeName,
-      title: 'Upload Progress Animation',
-      widget: const UploadProgressPage())
+  const PageRoute(
+    routeName: UploadProgressPage.routeName,
+    title: 'Upload Progress Animation',
+    widget: UploadProgressPage(),
+  ),
+  const PageRoute(
+    routeName: TelegramThemeSwitcherPage.routeName,
+    title: 'Telegram Dark Mode Switcher Animation',
+    widget: TelegramThemeSwitcherPage(),
+  ),
 ];
 
 class PageRoute {
   final String routeName;
   final String title;
-  final bool isUnfinished;
   final Widget widget;
+  final bool isUnfinished;
 
-  PageRoute({
+  const PageRoute({
     required this.routeName,
     required this.title,
     required this.widget,
